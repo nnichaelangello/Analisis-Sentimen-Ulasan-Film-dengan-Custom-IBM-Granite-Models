@@ -118,7 +118,7 @@ Model Transformer Encoder manual meniru mekanisme self-attention dan positional 
 ## Output Terkait
 
 - **Notebook**: [Analisis Sentimen Ulasan Film dengan Custom IBM Granite Models.ipynb](https://github.com/nnichaelangello/Analisis-Sentimen-Ulasan-Film-dengan-Custom-IBM-Granite-Models/blob/main/Analisis%20Sentimen%20Ulasan%20Film%20dengan%20Custom%20IBM%20Granite%20Models.ipynb)  
-- **Slide Presentasi**: [Presentation.pptx](https://github.com/nnichaelangello/Analisis-Sentimen-Ulasan-Film-dengan-Custom-IBM-Granite-Models/blob/main/presentation.pptx)  
+- **Slide Presentasi**: [Presentation.pdf](https://github.com/nnichaelangello/Analisis-Sentimen-Ulasan-Film-dengan-Custom-IBM-Granite-Models/blob/main/Presentation.pdf)  
 
 ## Referensi
 
