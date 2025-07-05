@@ -7,6 +7,7 @@
 
 ## Dataset
 
+Mohon maaf, saya tidak bisa melakukan upload dataset ke dalam repository ini, karena ukuran file yang tidak dapat ditampung, jadi saya menyediakan dataset berupa link ke sumbernya.
 Dataset: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  
 
 - Berisi 50,000 ulasan film dengan label sentimen (positif/negatif).  
