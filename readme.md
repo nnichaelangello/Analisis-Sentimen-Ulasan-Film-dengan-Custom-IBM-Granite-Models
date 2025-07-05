@@ -60,20 +60,24 @@ Dataset: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lak
     - "Great" (positif) dan "bad" (negatif) mencerminkan sentimen ekstrem; "bad" sering terkait film aksi, menunjukkan ekspektasi tinggi pada efek visual.  
   - **Skor Kepentingan Kata** (berdasarkan bobot perhatian model):  
     - Positif: {'film': 0.489, 'movie': 0.754, 'one': 0.578, 'like': 0.637, 'good': 0.669, 'story': 0.538, 'great': 1.071, 'see': 0.936, 'time': 0.813, 'really': 0.411}.  
-    - Negatif: {'movie': 0.754, 'film': 0.489, 'one': 0.578, 'like': 0.637, 'even': 0.612, 'bad': 0.818, 'good': 0.669, 'would': 0.844, 'really': 0.411, 'time': 0.813}.  
+    - Negatif: {'movie': 0.754, 'film': 0.489, 'one': 0.578, 'like': 0.637, 'even': 0.612, 'bad': 0.818, 'good': 0.669, 'would': 0.844, 'really': 0.411, 'time': 0.813}.
+    - Hasil identifikasi, "great" (1.071) dan "bad" (0.818) menjadi acuan sebagai pendorong sentimen.
   - **Panjang Rata-rata Ulasan**: Positif: 111.14 token, negatif: 109.41 token – ulasan negatif >200 token lebih rinci, menunjukkan kritik mendalam.  
-- **Visualisasi**: Lihat folder `/images` di [repositori Github](https://github.com/[your-username]/capstone-project):  
-  - Loss curve: Penurunan train loss (0.08 ke <0.02), test loss stabil (0.00).  
-  - Distribusi panjang ulasan: Mayoritas 0-50 token, negatif lebih panjang.  
-  - Diagram batang kata kunci: "Great" dan "bad" menonjol.  
+- **Visualisasi**:
+  - Loss curve: Penurunan train loss (0.08 ke <0.02), test loss stabil (0.00).
+    ![image](https://github.com/user-attachments/assets/4d41f855-e495-4f17-8233-23b830949c80)
+
+  - Distribusi panjang ulasan: Mayoritas 0-50 token, negatif lebih panjang.
+    ![image](https://github.com/user-attachments/assets/5e1c9d9a-2aee-4898-86da-acaba6a2c0aa)
+
+    Ulasan negatif lebih panjang menunjukkan kritik yang lebih terlibat, berpotensi untuk analisis kualitatif lebih lanjut.
 
 #### Rata-rata Semua Fold
 
 - **Metrik**: Akurasi, precision, recall, F1, ROC-AUC, PR-AUC: 1.0000 ± 0.0000 (pelatihan dan pengujian).  
 - **Wawasan Bisnis**:  
   - Distribusi sentimen: Positif 50.19%, negatif 49.81%.  
-  - Panjang rata-rata ulasan: Positif 112.79 token, negatif 111.36 token.  
-  - Ulasan negatif lebih panjang menunjukkan kritik yang lebih terlibat, berpotensi untuk analisis kualitatif lebih lanjut.  
+  - Panjang rata-rata ulasan: Positif 112.79 token, negatif 111.36 token.   
 
 ### 5. Interpretasi Bisnis
 
@@ -112,16 +116,8 @@ Model Transformer Encoder manual meniru mekanisme self-attention dan positional 
 
 ## Output Terkait
 
-- **Notebook**: [capstone_project.ipynb](https://github.com/[your-username]/capstone-project/blob/main/capstone_project.ipynb)  
-- **Slide Presentasi**: [presentation.pptx](https://github.com/[your-username]/capstone-project/blob/main/presentation.pptx)  
-- **Visualisasi**: [images/](https://github.com/[your-username]/capstone-project/tree/main/images)  
-
-## Cara Menjalankan
-
-1. Clone repositori: `git clone https://github.com/[your-username]/capstone-project`.  
-2. Instal dependensi: `pip install -r requirements.txt`.  
-3. Jalankan notebook: `jupyter notebook capstone_project.ipynb`.  
-4. Pastikan dataset tersedia di folder `/data` atau unduh dari [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).  
+- **Notebook**: [capstone_project.ipynb](https://github.com/nnichaelangello/Analisis-Sentimen-Ulasan-Film-dengan-Custom-IBM-Granite-Models/blob/main/Analisis%20Sentimen%20Ulasan%20Film%20dengan%20Custom%20IBM%20Granite%20Models.ipynb)  
+- **Slide Presentasi**: [presentation.pptx](https://github.com/nnichaelangello/Analisis-Sentimen-Ulasan-Film-dengan-Custom-IBM-Granite-Models/blob/main/presentation.pptx)  
 
 ## Referensi
 
@@ -149,4 +145,4 @@ Model Transformer Encoder manual meniru mekanisme self-attention dan positional 
 
 ## Kontak
 
-Untuk diskusi, hubungi [email Anda]. Proyek terbuka untuk pengembangan berdasarkan masukan.
+Untuk diskusi, hubungi michaelriyadi5@gmail.com . Proyek terbuka untuk pengembangan berdasarkan masukan.
